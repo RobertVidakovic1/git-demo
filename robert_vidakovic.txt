@@ -1,0 +1,10 @@
+cd Desktop 
+cd Git zadatak za bod 
+git init 
+echo Robert Vidakovic > Readme.txt
+git add Readme.txt 
+git commit -m "Prvi commit" 
+git log 
+git remote add origin https://github.com/RobertVidakovic1/git-demo.git 
+git remote -v 
+git push origin master 
